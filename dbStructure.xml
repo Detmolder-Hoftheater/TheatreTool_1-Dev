@@ -1,55 +1,0 @@
-<!--<prefs>
-    <version>1.0</version>
-    <entries>
-        <entry key="works" value="theater-data/works"/>  
-		<entry key="sources" value="theater-data/sources"/> 
-		<entry key="leafletimages" value="theater-data/leafletimages"/> 
-		<entry key="einnahmen" value="theater-data/einnahmen"/> 
-		<entry key="persons" value="theater-data/persons"/>
-        <entry key="spielplaene" value="theater-data/spielplaene"/>
-        <entry key="vertaktung" value="theater-data/vertaktung"/>
-        <entry key="regie" value="theater-data/regiebuecher"/>
-        <entry key="role" value="theater-data/rollen_kostuem"/>
-        <entry key="gage" value="theater-data/gagenbuecher"/>
-        <entry key="abo" value="theater-data/abonnement"/>
-        <entry key="journal" value="theater-data/theaterjournal"/>
-    </entries>
-</prefs>-->
-<prefs>
-	<entries>
-		<entry key="language" value="en"/>  
-		<!--Types of Navigation: "theatre", "other". For type "theatre" two items "Organization" and "Administration"-->
-		<entry key="navigation_type" value="theatre"/>  
-		<entry key="name" value="Detmolder Hoftheater"/>  
-		<entry key="startyear" value="1825"/>  
-		<entry key="endyear" value="1875"/>  
-		<!--Database paths. For each path one item in navigation tree will be ganerated.-->
-		<!--If one item will be not generated the value is value="".-->
-		<!--Key words are not changeable.-->
-		<!--For more details please show "Systems Design" in help menu in toolbar.-->
-		<!--DB paths for repetoire item. For show repertoire work path must be exist, other paths are otpional.-->
-		<entry key="works" value="theater-data-exs/works"/>  
-		<entry key="sources" value="theater-data-exs/sources"/>  
-		<entry key="leafletimagesSource" value="theater-data-exs/leafletimages/sources"/>
-		<!--Schedule paths are optional.-->
-		<entry key="playschedule" value="theater-data-exs/spielplaene"/>
-		<entry key="leafletimagesSchedule" value="theater-data-exs/leafletImages/spielplaene"/>
-		<!-- <entry key="representation" value="theater-data/auffuerungen"/>
-        <entry key="billOfFare" value="theater-data/teatherzettel"/>-->
-		<!--DB path for persons.-->
-		<entry key="persons" value="theater-data-exs/persons"/>
-		<!--DB path for revenue.-->
-		<entry key="revenue" value="theater-data-exs/einnahmen"/>  
-		<entry key="leafletimagesRevenue" value="theater-data-exs/leafletImages/einnahmen"/>
-		<!--DB path for expenses.-->
-		<entry key="expenses" value="theater-data-exs/ausgaben"/>  
-		<entry key="leafletimagesExpenses" value="theater-data-exs/leafletImages/ausgaben"/>
-		<!--<entry key="regie" value="theater-data/regiebuecher"/>-->
-		<!--<entry key="role" value="theater-data/rollen_kostuem"/>-->
-		<!-- <entry key="gage" value="theater-data/gagenbuecher"/>
-        <entry key="abo" value="theater-data/abonnement"/>-->
-		<!-- <entry key="journal" value="theater-data/theaterjournal"/>-->
-		<!--Definition of custom navigation items. Value is name for navigation item.-->
-		<entry key="custom" value="Books" dbPath="theater-data-exs/info"/>
-	</entries>
-</prefs>
