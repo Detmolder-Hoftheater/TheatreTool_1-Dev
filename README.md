@@ -13,15 +13,14 @@ Dependencies
 
 * Jetty Application Server (<http://www.eclipse.org/jetty/>), in the newest version
 * eXist-db (<http://www.exist-db.org>), in the newest version
-* Leaflet-0.7.3 (open-source JavaScript library for mobile-friendly interactive maps), 
-  <http://leafletjs.com>
+* Leaflet-0.7.3 (open-source JavaScript library for mobile-friendly interactive maps), <http://leafletjs.com>
 <!--* Verovio-toolkit-0-9-11 (<http://www.verovio.org/index.xhtml>) edirom online-->
 * highlight (<https://highlightjs.org>)
 * Theatre Tool depends on the javascript framework ExtJS (<http://www.sencha.com/products/extjs/>) which is included in parts in our code base. 
 We use ExtJS 4.2.1 in the GPL version. 
 * We use icons from (<https://www.iconfinder.com>, <https://icons8.com>) for free.
 
-Setup
+Installing
 -----
 
 Please see our documentation in the wiki section: https://github.com/Detmolder-Hoftheater/TheatreTool_1-Dev/wiki 
