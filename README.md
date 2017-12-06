@@ -8,6 +8,8 @@ The Informations are encoded in the formats of the Text Encoding Initiative (TEI
 exists as Facsimiles or HTML files and saved in the XML-Database. 
 Database structure and time period can be defined in the property files.
 
+An example for use Theatre Tool: http://hoftheater-detmold.de/portal/index.html (Detmolder Hoftheater Project)
+
 Dependencies
 ------------
 
