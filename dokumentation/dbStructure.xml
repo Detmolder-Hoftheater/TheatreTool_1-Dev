@@ -1,0 +1,46 @@
+<prefs>
+    <version>1.0</version>
+    <entries>
+        <!--Types of Navigation: "theatre", "other". For type "theatre" two items "Organization" and "Administration"-->
+        <entry key="navigation_type" value="theatre"/>  
+        <entry key="name" value="Detmolder Hoftheater"/>  
+        <entry key="startyear" value="1825"/>  
+        <entry key="endyear" value="1875"/>  
+        <!--Database paths. For each path one item in navigation tree will be ganerated.-->
+        <!--If one item will be not generated the value is value="".-->
+        <!--Key words are not changeable.-->
+        <!--For more details please show "Systems Design" in help menu in toolbar.-->
+        <!--DB paths for repetoire item. For show repertoire work path must be exist, other paths are otpional.-->
+        <entry key="works" value="theater-data/works"/>  
+        <entry key="sources" value="theater-data/sources"/>  
+        <entry key="expressions" value="theater-data/expressions"/>  
+        <entry key="liPath" value="theater-data/leafletImages"/>
+        <entry key="eoutPath" value="theater-data/vertaktung"/>
+        <entry key="eoPath" value="http://hoftheater-detmold.de"/>
+        <!--Schedule paths are optional.-->
+        <entry key="playschedule" value="theater-data/spielplaene"/>
+        <!--DB path for persons is optional.-->
+        <entry key="persons" value="theater-data/persons"/>
+        <!--DB paths for revenue  are optional.-->
+        <entry key="revenue" value="theater-data/einnahmen"/>  
+        <entry key="leafletimagesRevenue" value="theater-data/leafletImages/einnahmen/"/>
+        <!--DB path for expenses  are optional.-->
+        <entry key="expenses" value="theater-data/ausgaben"/>  
+        <entry key="leafletimagesExpenses" value="theater-data/leafletImages/ausgaben/"/>
+        <!--DB path for theaterjournal is optional.-->
+        <entry key="journal" value="theater-data/theaterjournal"/>
+        <!--DB path for abonnement is optional.-->
+        <entry key="abo" value="theater-data/abonnement"/>
+        <!--DB path for taxation is optional.-->
+        <entry key="tax" value="theater-data/taxation"/>
+        <!--DB path for gagen is optional.-->
+        <entry key="gage" value="theater-data/gagenbuecher"/>
+        <!--DB path for dierection is optional.-->
+        <entry key="regie" value="theater-data/regiebuecher"/>
+        <!--DB path for role- & costumebooks is optional.-->
+        <entry key="rolebook" value="theater-data/rollen_kostuem"/>
+        <!--Definition of one or more custom navigation items. Value is name for navigation item.-->
+        <entry key="custom" value="Books" dbPath="theater-data/info"/>
+        <!--<entry key="custom" value="Documentation" dbPath="theater-data/docu"/>-->
+    </entries>
+</prefs>
